@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise8</title>
+        <style>
+            .name,.email{
+                display: block;
+            }
+            .name{
+                margin-bottom: 10px;
+            }
+            .thanks{
+                width: 300px;
+            }
+            .thanks,.Yes,.No{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .google{
+                display: block;
+                margin-left: 250px;
+                width: 150px;
+                height: 150px;
+                object-fit: contain;
+                margin-bottom: none;
+                
+
+            }
+            .sbar{
+                display: block;
+                margin-left: 200px;
+                border: none;
+                border-radius: 50px;
+                width: 300px;
+                box-shadow: 0 0 2px grey;
+            }
+            .FirstName,.LastName
+            {
+                display: inline-block;
+                width: 100px;
+            }
+            .email2{
+                display: block;
+                width: 211px;
+                margin-top: 8px;
+                margin-bottom: 8px;
+            }
+            .signup{
+                border-radius: 50px;
+                border: none;
+                color: white;
+                background-color: rgb(0, 89, 255);
+                font-weight: bold;
+                text-align: center;
+                width: 211px;
+                height: 30px;
+            }
+            .signup:hover{
+                background-color: white;
+                color:rgb(0, 89, 255);
+                border-width: 12px;
+                border-color: aqua;
+            }
+            .request{
+                font-size: 35px;
+                font-weight: bold;
+            }
+            .pick,.dest{
+                display: block;
+                width: 250px;
+                height: 30px;
+                border: none;
+                box-shadow: 0 0 2px grey;
+                padding-left: 20px;
+                color: rgb(167, 163, 163);
+                font-weight: 2px;
+                margin-bottom: 10px;
+            }
+            .reqnow{
+                background-color: black;
+                color: white;
+                
+            }
+            .snow{
+                background-color: white;
+                color: black;
+                border: none;
+                box-shadow: 0 0 2px black;
+            }
+            /* html{
+                background-color: rgb(245, 218, 150);
+            } */
+            .gsb{
+                text-align: center;
+            }
+            
+            
+
+
+        </style>
+    </head>
+    <body>
+        <input class="name" type="text" placeholder="Name">
+        <input class="email" type="text" placeholder="Email">
+
+        <hr>
+        <p class="thanks">Thanks for chatting with our customer support, Would you like to five a quick survey</p>
+        <button class="Yes">Yes</button>
+        <button class="No">No</button>
+        <hr>
+        <div class="gsb">
+        <img class="google" src="img html/googlelogo.jpeg">
+        <input class="sbar" type="text" placeholder="Search Google or type a URL">
+        </div>
+        <hr>
+        <input class="FirstName" type="text" placeholder="First Name">
+        <input class="LastName" type="text" placeholder="Last Name">
+        <input class="email2" type="text" placeholder="Email">
+        <button class="signup">Sign Up</button>
+        <hr>
+        <p class="request">Request A Ride right now!</p>
+        <input class="pick" type="text" placeholder="Enter Pickup Location">
+        <input class="dest" type="text" placeholder="Enter Destination">
+        <button class="reqnow">Request Now</button>
+        <button class="snow">Schedule for Later</button>
+
+
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .div1{
+                background-color: green;
+                top: 0;
+                right: 0;
+                width: 100px;
+                position: fixed;
+                bottom: 0;
+                color: greenyellow;
+            }
+            .div2{
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-color: rgba(100, 96, 96, 0.8);
+                display: flex;
+                align-items: center;
+            }
+            .modal{
+                position: fixed;
+                top: 100px;
+                right: 200px;
+                left: 200px;
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+                align-items: center;
+            }
+            .d2{
+                margin-bottom: 5px;
+            }
+
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="div1">right sidebar</div>
+
+        <div class="div2">
+            <div class="modal">
+                <div class="d1">Modal Title</div>
+                <div class="d2">This is a modal</div>
+                <div>
+                    <button class="close">close</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

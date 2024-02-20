@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>exercise 6 js</title>
+
+    </head>
+    <body>
+
+
+        <script>
+
+            const hour=20;
+            const name='Kshitij';
+            if(hour>=6 && hour<=12){
+                console.log(`Good Morning ${name}`);
+            }else if(hour>=13 && hour<=17){
+                console.log(`Good Afternoon ${name}`);
+
+            }else{
+                console.log(`Good Night ${name}`);
+            }
+
+            const age=64;
+            const isHoliday=true;
+            if( (age<=6 || age>=65)&& !isHoliday){
+                console.log('Discount');
+            }else{
+                console.log('No Discount');
+            }
+
+            const randomNumber=Math.random();
+            const guess='tails';
+            let result='';
+            if(randomNumber<=0.5){
+                result='heads';
+            }else{
+                result='tails';
+            }
+
+            // if(result===guess){
+            //     console.log(`You Won`);
+            // }else{
+            //     console.log('You lose');
+            // }
+            const coinFlip= result===guess ? 'Won':'Lose'
+            console.log(coinFlip);
+
+
+        </script>
+    </body>
+</html>

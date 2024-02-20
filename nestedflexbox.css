@@ -1,0 +1,60 @@
+.uimg1{
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+    border-radius: 25px;
+    
+}
+.userimg{
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.time{
+    color: rgb(142, 136, 136);
+    font-size: 14px;
+    margin-right: 5px;
+}
+.name{
+    font-style: bold;
+    font-family: arial;
+    font-weight: bold;
+}
+.subject{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial;
+}
+.message{
+    color: rgb(142,136,136);
+}
+.info{
+  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.div1{
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(218, 212, 212);
+    border-radius: 5px;
+    box-shadow:  0 0 2px rgb(142, 136, 136);
+    border-bottom: none;
+}
+.emailcont{
+    flex: 1;
+    
+    
+}
+.gmail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.ab{
+    margin-bottom: 10px;
+    color: rgb(142, 136, 136);
+}

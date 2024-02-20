@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="console.log(`Cart Quantity: ${cartQuantity}`);
+        ">Show Quantity</button>
+
+        <button onclick="if(cartQuantity>=10){
+            alert('Maximum Quantity reached. Dont update the cart');
+            }else{
+                console.log(`Cart Quantity: ${cartQuantity=cartQuantity+1}`);
+            }
+        ">Add To Cart</button>
+        
+        <button onclick="if(cartQuantity>=10){
+            alert('Maximum Quantity reached. Dont update the cart');
+            }else{
+                console.log(`Cart Quantity: ${cartQuantity=0};`)
+            }
+        " >
+            Reset
+        </button>
+
+        <button onclick="if(cartQuantity<=0){
+            alert('Maximum Quantity reached. Dont update the cart');
+            }else{
+            console.log(`Cart Quantity: ${cartQuantity=cartQuantity-1};`)
+            }">Delete</button>
+        
+        <button onclick="if(cartQuantity>=10){
+            alert('Maximum Quantity reached. Dont update the cart');
+        }else{
+        console.log(`Cart Quantity: ${cartQuantity+=4};`)
+        }">+4</button>
+
+        <button onclick="if(cartQuantity>=10){
+            alert('Maximum Quantity reached. Dont update the cart');
+        }else{
+        console.log(`Cart Quantity: ${cartQuantity+=5};`)
+        }">+5</button>
+
+        <button onclick="if(cartQuantity<=0){
+            alert('Minimum Quantity reached. Dont update the cart');
+        }else{
+        console.log(`Cart Quantity: ${cartQuantity-=2};`)
+        }">-2</button>
+
+        <button onclick="if(cartQuantity<=0){
+            alert('Minimum Quantity reached. Dont update the cart');
+        }else{
+        console.log(`Cart Quantity: ${cartQuantity-=3};`)
+        }">-3</button>
+
+        
+        
+        <script>
+            let cartQuantity=0;
+        </script>
+    </body>
+</html>

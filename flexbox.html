@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            .div1{
+                display: flex;
+                flex-direction: row;
+                
+            }
+            .div2{
+                display: flex;
+                flex-direction: row;
+                flex: 1 1 3;
+               
+            }
+            .div3{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .div4{
+                display: flex;
+                height: 50px;
+                justify-content: space-between;
+                border-style: solid;
+                border-width: 1px;
+                align-items: center;
+            }
+            .flexbox{
+                display: flex;
+                flex-direction: row;
+                border: none;
+                box-shadow: 0 0 2px rgb(96,96,96);
+                width: 150px;
+                justify-content: space-between;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            .div5{
+                width: 300px;
+                align-items: center;
+            }
+            .nots{
+                border: none;
+                border-radius: 5px;
+                color: white;
+                background-color: rgb(0, 123, 255);
+                padding-left: 5px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-right: 5px;
+            }
+            .div6{
+                width: 300px;
+                align-items: center;
+            }
+            .suggest{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 10px;
+                /* justify-content: space-between; */
+            }
+            img{
+                width: 50px;
+                height: 50px;
+                border-radius: 28px;
+            }
+            .info{
+                width: 150px;
+                margin-left: 5px;
+            }
+            .p1,.p2,.p3{
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .p1{
+                font-weight: bold;
+                font-family: arial;
+                
+            }
+            .p2{
+                color: rgb(96,96,96);
+            }
+            .p3{
+                color: rgb(96,96,96);
+                font-size: 14px;
+            }
+            .follow{
+                color: white;
+                background-color: rgb(0, 166, 255);
+                border: none;
+                border-radius: 5px;
+                height: 20px;
+
+            }
+           
+            .sbar{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                vertical-align: middle;
+                align-content: center;
+                height: 50px;
+                border: none;
+                background-color: purple;
+                align-items: center;
+            }
+            .search{
+                
+                align-content: center;
+
+            }
+            input{
+                align-self: center;
+                width: 500px;
+                border-radius: 18px;
+                border: none;
+                height: 25px;
+                border: none;
+            }
+            /* input:active{
+                border: none;
+            } */
+            .home{
+                color: white;
+                margin-left: 5px;
+                font-weight: bold;
+            
+            }
+            .download{
+                background-color: purple;
+                color: white;
+                margin-right: 5px;
+                border-color: white;
+                border-radius: 5px;
+                height: 30px;
+                border-style: solid;
+                border-width: 1px;
+            }
+            .item1,.item2{
+                background-color: black;
+                color: white;
+                
+            }
+            .d1{
+                width: 100px;
+                background-color: lightblue;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .d2{
+                background-color: lightblue;
+                width: 200px;
+
+            }
+            .it1{
+                display: flex;
+                flex-direction:row ;
+                
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <div style="background-color: lightblue;
+            width: 200px;">200px</div>
+            <div style="background-color: lightpink;
+            width: 75px;">75px</div>
+        </div><hr>
+        <div class="div2">
+            <p style="background-color: lightblue;
+            width: 50px;">flex1</p>
+            <p style="background-color: lightpink;
+            flex: 1;
+            width: 50px;">flex2</p>
+            <p style="background-color: lightblue;
+            width: 50px;">flex3</p>
+        </div><hr>
+        <div class="div3">
+            <div style="background-color: lightblue;">img 1</div>
+            <div style="background-color: lightpink;">img 2</div>
+            <div style="background-color: lightblue;">img 3</div>
+            <div style="background-color: lightpink;">img 4</div>
+        </div><hr>
+        <div class="div4">
+            <div style="background-color: lightblue;">img1</div>
+            <div style="background-color: lightpink;">img2</div>
+        </div><hr>
+        <div class="div5">
+            <div class="flexbox">
+                <div>Home</div>
+                <div class="nots">14</div>
+            </div>
+            <div class="flexbox">
+                <div>Settings</div>
+                <div class="nots">14</div>
+            </div>
+            <div class="flexbox">
+                <div>Messages</div>
+                <div class="nots">14</div>
+            </div>
+            
+        </div><hr>
+
+        <div class="div6">
+            <div class="suggest">
+                <div class="img"><img src="img html/kshitij.png"></div>
+                <div class="info">
+                    <p class="p1">Kshitij</p>
+                    <p class="p2">Student</p>
+                    <p class="p3">Popular</p>
+                </div>
+                <div>
+                    <button class="follow">Follow</button>
+                </div>
+            </div>
+
+            <div class="suggest">
+                <div class="img"><img src="img html/kshitij.png"></div>
+                <div class="info">
+                    <p class="p1">Kshitij</p>
+                    <p class="p2">Student</p>
+                    <p class="p3">Popular</p>
+                </div>
+                <div>
+                    <button class="follow">Follow</button>
+                </div>
+            </div>
+
+            <div class="suggest">
+                <div class="img"><img src="img html/kshitij.png"></div>
+                <div class="info">
+                    <p class="p1">Kshitij</p>
+                    <p class="p2">Student</p>
+                    <p class="p3">Popular</p>
+                </div>
+                <div>
+                    <button class="follow">Follow</button>
+                </div>
+            </div>
+        </div><hr>
+
+        <div class="sbar">
+            <div class="home">Home</div>
+            <div class="search">
+
+                <input type="text" placeholder="Search">
+            </div>
+             <div class="dload">
+                <button class="download">Download</button>  
+            </div>
+        </div>
+
+        <hr>
+        <div class="div8" style="display: flex;
+        height: 50px;">
+            <div class="d1">
+                <div class="item1">item1</div>
+            
+            </div>
+                
+            <div style="background-color: lightpink;
+            width: 200px;"></div>
+              
+        </div><hr>
+
+        <div class="div9" style="display: flex;
+        height: 50px;
+        ">
+            <div style="background-color: lightpink;
+            width: 100px;"></div>
+            <div class="d2">
+                <div class="it1">
+                    <div>item1</div>
+                </div>
+                <div class="it2" style="display: flex;
+                justify-content: space-between;">
+                    <div class="item2">item2</div>
+                    <div class="item2">item2</div>
+                </div>
+            
+                
+            </div>
+        </div>
+        
+    </body>
+</html>

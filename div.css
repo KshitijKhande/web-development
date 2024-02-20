@@ -1,0 +1,126 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50px;
+
+} 
+.div3{
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}  
+.div4{
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+.install{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    ;
+}
+.add{
+    color: white;
+}
+.cat{
+    height:30px;
+    width: 30px;
+    border-radius: 50px;
+    vertical-align: middle;
+}
+.div5{
+    border-width: 1px;
+    border-color: grey;
+    box-shadow: 0 0 2px black;
+    width: 300px;
+    border-radius: 6px;
+    height: 50px;
+
+}
+.cat,.twitter,.tweet{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.twitter{
+    width: 200px;
+    border: none;
+    border-radius: 30px;
+}
+.tweet{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+
+}
+.div6{
+    width: 150px;
+    height: 250px;
+    
+    border-width: 1px;
+    box-shadow: 0 0 2px black;
+}
+.cat1{
+    height: 150px;
+    width: 150px;
+    
+}
+.name{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 15px;
+    margin-bottom:0px;
+
+}
+.mf{
+    margin-top: 0px;
+    font-size: 14px;
+    color: grey;;
+    margin-bottom: 0px;
+
+}
+.af{
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    margin-top: 5px;
+    
+}
+.name,.mf,.af{
+    margin-left: 10px;
+}
+.div7{
+    width: 150px;
+    height: 250px;
+    border-width: 1px;
+    box-shadow: 0 0 2px black;
+}
+.div7,.div8,.div9{
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+    border-width: 1px;
+    box-shadow: 0 0 2px black;
+    margin-left: 10px;
+}
+
+
+
