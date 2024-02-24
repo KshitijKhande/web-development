@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            button{
+                height: 30px;
+                width: 30px;
+                background-color: black;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            body{
+                
+            }
+        </style>
+
+    </head>
+    <body>
+        <p>
+            <button onclick="console.log(`${calculation+=1}`);">1</button>
+
+            <button onclick="console.log(`${calculation+=2}`)">2</button>
+
+            <button onclick="console.log(`${calculation+=3}`);">3</button>
+        </p>
+        <p>
+            <button onclick="console.log(`${calculation+=4}`);">4</button>
+
+            <button onclick="console.log(`${calculation+=5}`);">5</button>
+
+            <button onclick="console.log(`${calculation+=6}`);">6</button>
+
+        </p>
+        <p>
+            <button onclick="console.log(`${calculation+=7}`);">7</button>
+
+            <button onclick="console.log(`${calculation+=8}`);">8</button>
+
+            <button onclick="console.log(`${calculation+=9}`);">9</button> 
+
+        </p>
+        <p>
+            <button onclick="console.log(`${calculation+=0}`);">0</button>
+
+            <button onclick="console.log(`${calculation+='+'}`);">+</button>
+
+            <button onclick="console.log(`${calculation+='-'}`);">-</button>
+        </p>
+        <p>
+            <button onclick="console.log(`${calculation+='*'}`);">*</button>
+
+            <button onclick="console.log(`${calculation+='/'}`);">/</button>
+    
+            <button onclick="console.log(`${eval(calculation)}`);">=</button>
+        </p>
+        <button onclick="console.log(`${calculation=null}`);">C</button>
+
+        
+        
+        
+
+       
+
+        <script>
+            let calculation='';
+        </script>
+    </body>
+</html>
