@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>List</title>
+
+    </head>
+    <body>
+        <h1>Welcome</h1>
+        <p>Current Seconds:<%= date %></p>
+
+        <% if(date%2==0){ %>
+            <ul>
+                <% fruits.forEach(fruit => {%>
+                    <li>
+                        <%=fruit%>
+                    </li>
+                <%}); %>
+            </ul>
+        <% }else{ %>
+            <p>Better Luck Next Time</p>
+        <% } %>
+    </body>
+</html>
